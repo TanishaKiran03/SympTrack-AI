@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("models/rf_model.pkl")
+model = joblib.load("rf_model.pkl")
 
 # Load dataset to get symptom list
 data = pd.read_csv("data/Training.csv")
