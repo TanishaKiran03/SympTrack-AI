@@ -7,7 +7,7 @@ import numpy as np
 model = joblib.load("rf_model.pkl")
 
 # Load dataset to get symptom list
-data = pd.read_csv("data/Training.csv")
+data = pd.read_csv("Training.csv")
 symptoms = data.columns[:-1]
 
 st.title("🩺 SympTrack AI")
